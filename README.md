@@ -1,17 +1,12 @@
-# MLBootcampProject
-
-# Proje Adı
-
-<h2 style="color: blue;">Proje Hakkında</h2>
+## Proje Hakkında
 
 Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin etmeyi amaçlamaktadır. Veri setinde müşterilerin kredi skorları, gelirleri, eğitim seviyeleri gibi çeşitli özellikler bulunmaktadır. Proje, gözetimli ve gözetimsiz öğrenme algoritmalarını kullanarak müşteri kaybını analiz etmeyi ve modellemeyi hedefler.
 
-## <span style="color:blue;">Amaç ve Hedef</span>
-
+## Amaç ve Hedef
 - **Amaç:** Müşterilerin bankadan ayrılma olasılıklarını tahmin etmek ve bu tahminlere dayanarak stratejik kararlar almak.
 - **Hedef:** Müşteri kaybını etkili bir şekilde tahmin edebilmek ve bankanın müşteri ilişkilerini iyileştirmek için önerilerde bulunmak.
 
-## <span style="color:blue;">Kullanılan Algoritmalar</span>
+## Kullanılan Algoritmalar
 
 1. **K-Nearest Neighbors (KNN) Sınıflandırma:**
    - Müşterilerin bankadan ayrılma durumlarını sınıflandırmak için kullanıldı.
@@ -19,7 +14,7 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 2. **K-Means Kümeleme:**
    - Müşterileri benzer özelliklere sahip gruplara ayırarak veri setindeki yapıların anlaşılmasına yardımcı oldu.
 
-## <span style="color:blue;">Modellerin Değerlendirilmesi</span>
+## Modellerin Değerlendirilmesi
 
 ### KNN Sınıflandırma
 
