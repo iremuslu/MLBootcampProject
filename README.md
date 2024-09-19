@@ -23,20 +23,13 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 
 ### KNN Sınıflandırma
 
-- **Doğru Tahmin Oranı:** Test setindeki örneklerin yaklaşık %93.81'i doğru tahmin edildi.
-- **Cross-Validation Sonuçları:** Modelin doğruluğu %94'e yükseldi.
-- **Churn 0 (Müşteri Kaybı Olmayan) Sınıfı:**
-  - **Precision:** 0.95
-  - **Recall:** 0.98
-- **Churn 1 (Müşteri Kaybı Olan) Sınıfı:**
-  - **Precision:** 0.83
-  - **Recall:** 0.62
-- **Değerlendirme:** Churn 0 sınıfı için yüksek precision ve recall değerleri elde edilmiştir. Ancak, Churn 1 sınıfı için modelin performansı daha düşük olup, bu sınıfın doğru tahmin edilme oranı zayıftır.
+![knn-classrep](https://github.com/user-attachments/assets/1566acc7-3c5c-44cd-9029-b5a1e4a2dc9d)
+![knn-classrep-opt](https://github.com/user-attachments/assets/a2b69efa-793d-42e7-92c8-99721023db95)
 
 ### K-Means Kümeleme
 
-- **Silhouette Skoru:** 0.20
-- **Değerlendirme:** Elde edilen düşük silhouette skoru, kümeler arasında belirgin bir ayrışma olmadığını ve müşterilerin kümelere düzgün bir şekilde ayrılmadığını gösterdi.
+![kmeans](https://github.com/user-attachments/assets/19e4da3e-6ac9-48f7-a05c-79fc43c3a626)
+![silhoutte](https://github.com/user-attachments/assets/7bf3ba0f-9121-427f-9659-62736ac9761b)
 
 ## Modellerin Değerlendirilmesi
 
