@@ -38,16 +38,15 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 - **Silhouette Skoru:** 0.20
 - **Değerlendirme:** Elde edilen düşük silhouette skoru, kümeler arasında belirgin bir ayrışma olmadığını ve müşterilerin kümelere düzgün bir şekilde ayrılmadığını gösterdi.
 
-## Sonuç
+## Modellerin Genel Değerlendirmesi
+
+   -Genel olarak K-means kümeleme algoritmasını incelediğimiz zaman istediğimiz başarıya ulaşamıyoruz.Müşterilerin kredi skorları, gelirleri ve müşteri hizmet süresi gibi özellikleri baz alarak kümelemeye çalışıldı. Ancak kümeleme sonucunda kümeler arasında çok büyük farklar görülmedi.
+   -KNN Sınıflandırma Algoritmasın da test setindeki örneklerin yaklaşık %93.81'ini doğru tahmin edildi.Bu modelimizin iyi bir şekilde öğrendiğini gösteriyor.Ayrıca cross validation ve hiper parametre optimizasyonu ile bu değer 0.94 e çıktı.Çok fazla bir artış olmasa da bu daha iyi bir accuracy değeri elde etmemize sebep oldu.Fakat Churn 0 için yüksek precision (0.95) ve recall (0.98) değerleri ile bu sınıf için iyi sonuçlar alıyorken Sınıf 1 için precision (0.83) ve recall (0.62) değerlerini alıyoruz, bu da bu sınıf üzerinde modelin daha az başarılı olduğunu gösteriyor.Yani bu durum bize 1 sınıfındaki örneklerin(bankadan ayrılma durumu) doğru tahmin edilme oranının düşük olduğunu gösterir.
+   -K-means Kümeleme Algoritmasın da ise amacımız benzer özelliklere sahip veri noktalarını bir araya getirmek ve aralarındaki farklılıkları ortaya koymak oldu.
+   -Elde edilen 0.20 olan Silhoutte skoru,kümelerin ayrışmasının net bir şekilde gerçekleşmediğini gösterdi.Müşteri kümeleri arasında belirgin ayrışmaların olmadığını gösterdi.
+   -Özet olarak çalıştığım bu veri setinin gözetimli öğrenme için daha çok uygun olduğunu gördüm.Çünkü veri seti daha çok Churn Flag ve diğer değişkenler arasındaki ilişkiyi göstermekte güçlüydü.Diğer özelliklerin birbiri ile ilişkisi daha zayıftı.Bu da diğer özelliklerin kullanılıp modelin Churn Flag'ı tahmin etmesinde gözetimli öğrenmenin daha etkili olacağı görülür.
+
+   ## Sonuç
 
 Bu proje, gözetimli öğrenme algoritmalarının (KNN) gözetimsiz öğrenme algoritmalarına (K-Means) göre daha etkili olduğunu göstermiştir. Gözetimli öğrenme, özellikle müşteri kaybını tahmin etmek için daha uygun bir yöntem olarak değerlendirilmiştir.
 
-## Kurulum ve Kullanım
-
-1. **Gereksinimler:**
-   - Python 3.x
-   - Gerekli kütüphaneler: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
-
-2. **Kurulum:**
-   ```bash
-   pip install -r requirements.txt
