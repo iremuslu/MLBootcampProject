@@ -2,7 +2,7 @@
 
 # Proje Adı
 
-## <span style="color:blue;">Proje Hakkında</span>
+<h2 style="color: blue;">Proje Hakkında</h2>
 
 Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin etmeyi amaçlamaktadır. Veri setinde müşterilerin kredi skorları, gelirleri, eğitim seviyeleri gibi çeşitli özellikler bulunmaktadır. Proje, gözetimli ve gözetimsiz öğrenme algoritmalarını kullanarak müşteri kaybını analiz etmeyi ve modellemeyi hedefler.
 
