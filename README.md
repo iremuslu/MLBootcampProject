@@ -1,7 +1,10 @@
 ## Proje Hakkında
 
 Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin etmeyi amaçlamaktadır. Veri setinde müşterilerin kredi skorları, gelirleri, eğitim seviyeleri gibi çeşitli özellikler bulunmaktadır. Proje, gözetimli ve gözetimsiz öğrenme algoritmalarını kullanarak müşteri kaybını analiz etmeyi ve modellemeyi hedefler.
-**Proje Linki:** [https://www.kaggle.com/code/iremuslu1/bankcustomerchurn-ml](https://www.kaggle.com/code/iremuslu1/bankcustomerchurn-ml)
+
+**Proje Linki:**
+[https://www.kaggle.com/code/iremuslu1/bankcustomerchurn-ml](https://www.kaggle.com/code/iremuslu1/bankcustomerchurn-ml)
+
 
 ## Amaç ve Hedef
 - **Amaç:** Müşterilerin bankadan ayrılma olasılıklarını tahmin etmek ve bu tahminlere dayanarak stratejik kararlar almak.
