@@ -28,18 +28,22 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 *Bu görsel, KNN sınıflandırma algoritmasının test setindeki sonuçlarını göstermektedir.*
 
 **KNN Hiperparametre Optimizasyonu Sonuçları:**
+
 <img src="https://github.com/user-attachments/assets/a2b69efa-793d-42e7-92c8-99721023db95" width="400" />
 *Bu görsel, hiperparametre optimizasyonu sonrası elde edilen sonuçları göstermektedir.*
 
 ### K-Means Kümeleme
 
 **K-Means Kümeleme Sonuçları:**
+
 <img src="https://github.com/user-attachments/assets/19e4da3e-6ac9-48f7-a05c-79fc43c3a626" width="400" />
 *Bu görsel, K-Means kümeleme algoritması ile elde edilen kümeleri göstermektedir.*
 
 **Silhouette Skoru:**
+
 <img src="https://github.com/user-attachments/assets/7bf3ba0f-9121-427f-9659-62736ac9761b" width="400" />
 *Bu görsel, kümelerin ne kadar ayrıştığını gösteren Silhouette skorunu içermektedir.*
+
 
 
 
