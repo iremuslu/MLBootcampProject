@@ -23,13 +23,28 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 
 ### KNN Sınıflandırma
 
-<img src="https://github.com/user-attachments/assets/1566acc7-3c5c-44cd-9029-b5a1e4a2dc9d" alt="KNN Class Rep" width="600"/>
-<img src="https://github.com/user-attachments/assets/a2b69efa-793d-42e7-92c8-99721023db95" alt="KNN Class Rep Opt" width="600"/>
+Aşağıda KNN Sınıflandırma algoritmasının sonuçlarını ve hiperparametre optimizasyonunu gösteren görseller bulunmaktadır.
+
+1. **KNN Sınıflandırma Sonuçları:**
+   <img src="https://github.com/user-attachments/assets/1566acc7-3c5c-44cd-9029-b5a1e4a2dc9d" alt="KNN Class Rep" width="400"/>
+   Bu görsel, KNN sınıflandırma algoritmasının test setindeki sonuçlarını göstermektedir.
+
+2. **KNN Hiperparametre Optimizasyonu Sonuçları:**
+   <img src="https://github.com/user-attachments/assets/a2b69efa-793d-42e7-92c8-99721023db95" alt="KNN Class Rep Opt" width="400"/>
+   Bu görsel, hiperparametre optimizasyonu sonrası elde edilen sonuçları göstermektedir.
 
 ### K-Means Kümeleme
 
-<img src="https://github.com/user-attachments/assets/19e4da3e-6ac9-48f7-a05c-79fc43c3a626" alt="KMeans Clustering" width="600"/>
-<img src="https://github.com/user-attachments/assets/7bf3ba0f-9121-427f-9659-62736ac9761b" alt="Silhouette Score" width="600"/>
+Aşağıda K-Means kümeleme algoritmasının sonuçlarını ve Silhouette skorunu gösteren görseller bulunmaktadır.
+
+1. **K-Means Kümeleme Sonuçları:**
+   <img src="https://github.com/user-attachments/assets/19e4da3e-6ac9-48f7-a05c-79fc43c3a626" alt="KMeans Clustering" width="400"/>
+   Bu görsel, K-Means kümeleme algoritması ile elde edilen kümeleri göstermektedir.
+
+2. **Silhouette Skoru:**
+   <img src="https://github.com/user-attachments/assets/7bf3ba0f-9121-427f-9659-62736ac9761b" alt="Silhouette Score" width="400"/>
+   Bu görsel, kümelerin ne kadar ayrıştığını gösteren Silhouette skorunu içermektedir.
+
 
 ## Modellerin Değerlendirilmesi
 
