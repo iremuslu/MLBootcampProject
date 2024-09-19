@@ -23,13 +23,13 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 
 ### KNN Sınıflandırma
 
-![knn-classrep](https://github.com/user-attachments/assets/1566acc7-3c5c-44cd-9029-b5a1e4a2dc9d)
-![knn-classrep-opt](https://github.com/user-attachments/assets/a2b69efa-793d-42e7-92c8-99721023db95)
+<img src="https://github.com/user-attachments/assets/1566acc7-3c5c-44cd-9029-b5a1e4a2dc9d" alt="KNN Class Rep" width="600"/>
+<img src="https://github.com/user-attachments/assets/a2b69efa-793d-42e7-92c8-99721023db95" alt="KNN Class Rep Opt" width="600"/>
 
 ### K-Means Kümeleme
 
-![kmeans](https://github.com/user-attachments/assets/19e4da3e-6ac9-48f7-a05c-79fc43c3a626)
-![silhoutte](https://github.com/user-attachments/assets/7bf3ba0f-9121-427f-9659-62736ac9761b)
+<img src="https://github.com/user-attachments/assets/19e4da3e-6ac9-48f7-a05c-79fc43c3a626" alt="KMeans Clustering" width="600"/>
+<img src="https://github.com/user-attachments/assets/7bf3ba0f-9121-427f-9659-62736ac9761b" alt="Silhouette Score" width="600"/>
 
 ## Modellerin Değerlendirilmesi
 
