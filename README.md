@@ -48,7 +48,7 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 
 
 
-## Modellerin Değerlendirilmesi
+## Modelleri Genel Değerlendirme
 
 - **Genel olarak K-means kümeleme algoritmasını incelediğimizde istediğimiz başarıya ulaşamadık. Müşterilerin kredi skorları, gelirleri ve müşteri hizmet süresi gibi özellikleri baz alarak kümelemeye çalıştık. Ancak, kümeleme sonucunda kümeler arasında çok büyük farklar görülmedi.**
 
@@ -62,6 +62,5 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 
 
    ## Sonuç
-
-Bu proje, gözetimli öğrenme algoritmalarının (KNN) gözetimsiz öğrenme algoritmalarına (K-Means) göre daha etkili olduğunu göstermiştir. Gözetimli öğrenme, özellikle müşteri kaybını tahmin etmek için daha uygun bir yöntem olarak değerlendirilmiştir.
+  - ** Bu proje, gözetimli öğrenme algoritmalarının (KNN) gözetimsiz öğrenme algoritmalarına (K-Means) göre daha etkili olduğunu göstermiştir. Gözetimli öğrenme, özellikle müşteri kaybını tahmin etmek için daha uygun bir yöntem olarak değerlendirilmiştir.
 
