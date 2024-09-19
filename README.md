@@ -60,5 +60,5 @@ Bu proje, bir banka müşteri veri seti kullanarak müşteri kaybını tahmin et
 
 
    ## Sonuç
-  - **Bu proje, gözetimli öğrenme algoritmalarının (KNN) gözetimsiz öğrenme algoritmalarına (K-Means) göre daha etkili olduğunu göstermiştir. Gözetimli öğrenme, özellikle müşteri kaybını tahmin etmek için daha uygun bir yöntem olarak değerlendirilmiştir.**
+ **Bu proje, gözetimli öğrenme algoritmalarının (KNN) gözetimsiz öğrenme algoritmalarına (K-Means) göre daha etkili olduğunu göstermiştir. Gözetimli öğrenme, özellikle müşteri kaybını tahmin etmek için daha uygun bir yöntem olarak değerlendirilmiştir.**
 
